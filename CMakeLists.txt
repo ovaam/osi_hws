@@ -7,4 +7,5 @@ add_executable(idz1osi
         "main4.cpp"
         main5.cpp
         main5.cpp
-        main5.cpp)
+        main5.cpp
+        main6.cpp)
