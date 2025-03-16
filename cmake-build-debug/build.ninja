@@ -49,17 +49,17 @@ cmake_ninja_workdir = /Users/ovaam/idz1osi/cmake-build-debug/
 
 build cmake_object_order_depends_target_idz1osi: phony || CMakeFiles/idz1osi.dir
 
-build CMakeFiles/idz1osi.dir/for_mark_3/main.cpp.o: CXX_COMPILER__idz1osi_unscanned_Debug /Users/ovaam/idz1osi/for$ mark$ 3/main.cpp || cmake_object_order_depends_target_idz1osi
-  DEP_FILE = CMakeFiles/idz1osi.dir/for_mark_3/main.cpp.o.d
+build CMakeFiles/idz1osi.dir/main4.cpp.o: CXX_COMPILER__idz1osi_unscanned_Debug /Users/ovaam/idz1osi/main4.cpp || cmake_object_order_depends_target_idz1osi
+  DEP_FILE = CMakeFiles/idz1osi.dir/main4.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.0 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/idz1osi.dir
-  OBJECT_FILE_DIR = CMakeFiles/idz1osi.dir/for_mark_3
+  OBJECT_FILE_DIR = CMakeFiles/idz1osi.dir
 
-build CMakeFiles/idz1osi.dir/for_mark_4/main4.cpp.o: CXX_COMPILER__idz1osi_unscanned_Debug /Users/ovaam/idz1osi/for$ mark$ 4/main4.cpp || cmake_object_order_depends_target_idz1osi
-  DEP_FILE = CMakeFiles/idz1osi.dir/for_mark_4/main4.cpp.o.d
+build CMakeFiles/idz1osi.dir/main5.cpp.o: CXX_COMPILER__idz1osi_unscanned_Debug /Users/ovaam/idz1osi/main5.cpp || cmake_object_order_depends_target_idz1osi
+  DEP_FILE = CMakeFiles/idz1osi.dir/main5.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.0 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/idz1osi.dir
-  OBJECT_FILE_DIR = CMakeFiles/idz1osi.dir/for_mark_4
+  OBJECT_FILE_DIR = CMakeFiles/idz1osi.dir
 
 
 # =============================================================================
@@ -69,7 +69,7 @@ build CMakeFiles/idz1osi.dir/for_mark_4/main4.cpp.o: CXX_COMPILER__idz1osi_unsca
 #############################################
 # Link the executable idz1osi
 
-build idz1osi: CXX_EXECUTABLE_LINKER__idz1osi_Debug CMakeFiles/idz1osi.dir/for_mark_3/main.cpp.o CMakeFiles/idz1osi.dir/for_mark_4/main4.cpp.o
+build idz1osi: CXX_EXECUTABLE_LINKER__idz1osi_Debug CMakeFiles/idz1osi.dir/main4.cpp.o CMakeFiles/idz1osi.dir/main5.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.0
   OBJECT_DIR = CMakeFiles/idz1osi.dir
   POST_BUILD = :

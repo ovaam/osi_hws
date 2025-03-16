@@ -4,5 +4,7 @@ project(idz1osi)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(idz1osi
-        "for mark 3/main.cpp"
-        "main4.cpp")
+        "main4.cpp"
+        main5.cpp
+        main5.cpp
+        main5.cpp)
