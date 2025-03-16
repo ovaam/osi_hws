@@ -4,4 +4,4 @@ project(idz1osi)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(idz1osi
-        server.cpp)
+        main.cpp)
