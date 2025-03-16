@@ -1,0 +1,3 @@
+/Users/ovaam/idz1osi/cmake-build-debug/CMakeFiles/idz1osi.dir
+/Users/ovaam/idz1osi/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ovaam/idz1osi/cmake-build-debug/CMakeFiles/rebuild_cache.dir
